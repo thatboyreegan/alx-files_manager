@@ -2,7 +2,7 @@ import Queue from 'bull/lib/queue';
 import imageThumbnail from 'image-thumbnail';
 import { ObjectId } from 'mongodb';
 import { writeFile } from 'fs';
-import dbClient from './utils_1/db';
+import dbClient from './utils/db';
 
 const fileQueue = new Queue('fileQueue');
 
